@@ -1,0 +1,26 @@
+{
+  "skip_files": [
+    "lib/pipeline_ci/application.ex",
+    "lib/pipeline_ci_web.ex",
+    "lib/pipeline_ci_web/telemetry.ex",
+    "lib/pipeline_ci_web/router.ex",
+    "lib/pipeline_ci_web/views/error_helpers.ex",
+    "test/support/data_case.ex",
+    "lib/pipeline_ci/mailer.ex",
+    "lib/pipeline_ci.ex",
+    "lib/pipeline_ci/repo.ex",
+    "test/support/conn_case.ex",
+    "lib/pipeline_ci_web/gettext.ex",
+    "lib/pipeline_ci_web/endpoint.ex",
+    "lib/pipeline_ci_web/controllers/page_html.ex",
+    "lib/pipeline_ci_web/components/layouts.ex",
+    "lib/pipeline_ci_web/controllers/page_controller.ex",
+    "lib/pipeline_ci_web/controllers/error_html.ex",
+    "lib/pipeline_ci_web/controllers/error_json.ex",
+    "lib/pipeline_ci_web/components/core_components.ex"
+  ],
+  "coverage_options": {
+    "treat_no_relevant_lines_as_covered": true,
+    "minimum_coverage": 95
+  }
+}
